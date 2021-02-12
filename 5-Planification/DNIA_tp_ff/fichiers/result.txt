@@ -1,0 +1,1933 @@
+
+ff: parsing domain file
+domain 'EWR1' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR1A' defined
+ ... done.
+
+
+
+Cueing down from goal distance:    9 into depth [1]
+                                   8            [1][2]
+                                   7            [1]
+                                   6            [1][2]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :    9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOUNT RBT SOCLE
+        1: MOVE RBT BASE Z1
+        2: PERFORM BINAGE Z1 RBT SOCLE
+        3: MOVE RBT Z1 Z2
+        4: PERFORM BINAGE Z2 RBT SOCLE
+        5: MOVE RBT Z2 Z3
+        6: PERFORM BINAGE Z3 RBT SOCLE
+        7: MOVE RBT Z3 Z4
+        8: PERFORM BINAGE Z4 RBT SOCLE
+        9: MOVE RBT Z4 BASE
+     
+
+time spent:    0.00 seconds instantiating 30 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 34 facts and 22 actions
+               0.00 seconds creating final representation with 26 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 44 states, to a max depth of 2
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr1' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr1a' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:    9 into depth [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: mount rbt socle
+        1: move rbt base z4
+        2: perform binage z4 rbt socle
+        3: move rbt z4 z3
+        4: move rbt z3 z2
+        5: perform binage z2 rbt socle
+        6: move rbt z2 z1
+        7: perform binage z1 rbt socle
+        8: move rbt z1 base
+        9: move rbt base z4
+       10: move rbt z4 z3
+       11: perform binage z3 rbt socle
+       12: move rbt z3 z4
+       13: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 30 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 34 facts and 22 actions
+               0.00 seconds creating final representation with 26 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 26 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR1' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR1B' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   15 into depth [1]
+                                  14            [1][2]
+                                  13            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   15
+                          14
+                          13
+                          12
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOUNT RBT BROSSES
+        1: MOVE RBT BASE Z1
+        2: PERFORM BUTTAGE Z1 RBT BROSSES
+        3: MOVE RBT Z1 Z2
+        4: PERFORM BUTTAGE Z2 RBT BROSSES
+        5: MOVE RBT Z2 Z3
+        6: PERFORM BUTTAGE Z3 RBT BROSSES
+        7: MOVE RBT Z3 Z4
+        8: PERFORM BUTTAGE Z4 RBT BROSSES
+        9: MOVE RBT Z4 BASE
+       10: MOVE RBT BASE Z5
+       11: PERFORM BUTTAGE Z5 RBT BROSSES
+       12: MOVE RBT Z5 BASE
+       13: MOVE RBT BASE Z6
+       14: PERFORM BUTTAGE Z6 RBT BROSSES
+       15: MOVE RBT Z6 BASE
+       16: MOVE RBT BASE Z7
+       17: PERFORM BUTTAGE Z7 RBT BROSSES
+       18: MOVE RBT Z7 BASE
+     
+
+time spent:    0.00 seconds instantiating 45 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 55 facts and 34 actions
+               0.00 seconds creating final representation with 41 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 64 states, to a max depth of 2
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr1' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr1b' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   15 into depth [1]
+                                  14            [1][2]
+                                  13            [1]
+                                  12            [1][2]
+                                  11            [1]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: mount rbt brosses
+        1: move rbt base z7
+        2: perform buttage z7 rbt brosses
+        3: move rbt z7 base
+        4: move rbt base z6
+        5: perform buttage z6 rbt brosses
+        6: move rbt z6 base
+        7: move rbt base z5
+        8: perform buttage z5 rbt brosses
+        9: move rbt z5 base
+       10: move rbt base z4
+       11: perform buttage z4 rbt brosses
+       12: move rbt z4 z3
+       13: move rbt z3 z2
+       14: perform buttage z2 rbt brosses
+       15: move rbt z2 z1
+       16: perform buttage z1 rbt brosses
+       17: move rbt z1 base
+       18: move rbt base z4
+       19: move rbt z4 z3
+       20: perform buttage z3 rbt brosses
+       21: move rbt z3 z4
+       22: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 45 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 55 facts and 34 actions
+               0.00 seconds creating final representation with 41 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 47 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR2' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR2A' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   14 into depth [1][2][3][4][5]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1][2]
+                                   9            [1]
+                                   7            [1]
+                                   6            [1][2]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+Cueing down from goal distance:    1 into depth [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: MOUNT RB BROSSES
+        1: MOVE RB BASE Z4
+        2: PERFORM BUTTAGE Z4 RB BROSSES
+        3: MOUNT RA SOCLE
+        4: MOVE RB Z4 Z3
+        5: PERFORM BUTTAGE Z3 RB BROSSES
+        6: MOVE RB Z3 Z2
+        7: PERFORM BUTTAGE Z2 RB BROSSES
+        8: MOVE RA BASE Z4
+        9: PERFORM BINAGE Z4 RA SOCLE
+       10: MOVE RA Z4 Z3
+       11: PERFORM BINAGE Z3 RA SOCLE
+       12: MOVE RB Z2 Z1
+       13: PERFORM BUTTAGE Z1 RB BROSSES
+       14: MOVE RB Z1 BASE
+       15: MOVE RA Z3 Z2
+       16: PERFORM BINAGE Z2 RA SOCLE
+       17: MOVE RA Z2 Z1
+       18: PERFORM BINAGE Z1 RA SOCLE
+       19: MOVE RA Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 40 easy, 20 hard action templates
+               0.00 seconds reachability analysis, yielding 52 facts and 44 actions
+               0.00 seconds creating final representation with 44 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 242 states, to a max depth of 5
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr2' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr2a' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   14 into depth [1][2][3][4][5]
+                                  13            [1][2][3][4][5]
+                                  12            [1]
+                                  11            [1][2][3][4][5][6][7]
+                                  10            [1][2][3][4][5][6][7]
+                                   9            [1][2][3][4][5][6][7][8]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: mount ra brosses
+        1: move ra base z4
+        2: perform buttage z4 ra brosses
+        3: move ra z4 base
+        4: unmount ra brosses
+        5: move ra base z1
+        6: mount rb socle
+        7: move rb base z4
+        8: perform binage z4 rb socle
+        9: move rb z4 base
+       10: unmount rb socle
+       11: move ra z1 z2
+       12: mount rb brosses
+       13: move rb base z1
+       14: perform buttage z1 rb brosses
+       15: move rb z1 base
+       16: move ra z2 z1
+       17: unmount rb brosses
+       18: move ra z1 z2
+       19: mount rb socle
+       20: move rb base z1
+       21: perform binage z1 rb socle
+       22: move rb z1 base
+       23: unmount rb socle
+       24: move ra z2 z1
+       25: move ra z1 base
+       26: mount ra brosses
+       27: move ra base z4
+       28: mount rb socle
+       29: move ra z4 z3
+       30: move rb base z4
+       31: perform buttage z3 ra brosses
+       32: move ra z3 z2
+       33: perform buttage z2 ra brosses
+       34: move ra z2 z1
+       35: move ra z1 base
+       36: move rb z4 z3
+       37: perform binage z3 rb socle
+       38: move rb z3 z2
+       39: perform binage z2 rb socle
+       40: move rb z2 z1
+       41: move rb z1 base
+
+time spent:    0.00 seconds instantiating 40 easy, 20 hard action templates
+               0.00 seconds reachability analysis, yielding 52 facts and 44 actions
+               0.00 seconds creating final representation with 44 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.01 seconds searching, evaluating 1363 states, to a max depth of 8
+               0.01 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR2' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR2B' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   23 into depth [1][2][3][4][5][6][7][8][9]
+                                  22            [1][2][3][4][5][6][7][8][9]
+                                  21            [1][2][3][4][5]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOVE RB BASE Z4
+        1: MOVE RB Z4 Z3
+        2: MOUNT RA BROSSES
+        3: MOVE RA BASE Z4
+        4: PERFORM BUTTAGE Z4 RA BROSSES
+        5: MOVE RA Z4 BASE
+        6: UNMOUNT RA BROSSES
+        7: MOVE RB Z3 Z4
+        8: MOVE RB Z4 BASE
+        9: MOVE RA BASE Z4
+       10: MOUNT RB BROSSES
+       11: MOVE RA Z4 Z3
+       12: MOVE RB BASE Z1
+       13: PERFORM BUTTAGE Z1 RB BROSSES
+       14: MOVE RB Z1 BASE
+       15: UNMOUNT RB BROSSES
+       16: MOUNT RB SOCLE
+       17: MOVE RB BASE Z4
+       18: PERFORM BINAGE Z4 RB SOCLE
+       19: MOVE RB Z4 BASE
+       20: MOVE RB BASE Z1
+       21: PERFORM BINAGE Z1 RB SOCLE
+       22: MOVE RB Z1 BASE
+       23: UNMOUNT RB SOCLE
+       24: MOVE RB BASE Z1
+       25: MOVE RA Z3 Z4
+       26: MOVE RB Z1 Z2
+       27: MOVE RA Z4 BASE
+       28: MOUNT RA BROSSES
+       29: MOVE RA BASE Z7
+       30: PERFORM BUTTAGE Z7 RA BROSSES
+       31: MOVE RA Z7 BASE
+       32: MOVE RA BASE Z6
+       33: PERFORM BUTTAGE Z6 RA BROSSES
+       34: MOVE RA Z6 BASE
+       35: UNMOUNT RA BROSSES
+       36: MOVE RA BASE Z7
+       37: MOVE RB Z2 Z1
+       38: MOVE RB Z1 BASE
+       39: MOVE RA Z7 BASE
+       40: MOVE RA BASE Z4
+       41: MOUNT RB BROSSES
+       42: MOVE RB BASE Z1
+       43: MOVE RB Z1 Z2
+       44: PERFORM BUTTAGE Z2 RB BROSSES
+       45: MOVE RB Z2 Z3
+       46: PERFORM BUTTAGE Z3 RB BROSSES
+       47: MOVE RB Z3 Z2
+       48: MOVE RB Z2 Z1
+       49: MOVE RB Z1 BASE
+       50: MOVE RB BASE Z5
+       51: PERFORM BUTTAGE Z5 RB BROSSES
+       52: MOVE RA Z4 BASE
+       53: MOVE RB Z5 BASE
+       54: MOUNT RA SOCLE
+       55: MOVE RA BASE Z4
+       56: MOVE RA Z4 Z3
+       57: PERFORM BINAGE Z3 RA SOCLE
+       58: MOVE RA Z3 Z2
+       59: PERFORM BINAGE Z2 RA SOCLE
+       60: MOVE RA Z2 Z1
+       61: MOVE RA Z1 BASE
+       62: MOVE RA BASE Z7
+       63: PERFORM BINAGE Z7 RA SOCLE
+       64: MOVE RA Z7 BASE
+       65: MOVE RA BASE Z6
+       66: PERFORM BINAGE Z6 RA SOCLE
+       67: MOVE RA Z6 BASE
+       68: MOVE RA BASE Z5
+       69: PERFORM BINAGE Z5 RA SOCLE
+       70: MOVE RA Z5 BASE
+     
+
+time spent:    0.00 seconds instantiating 58 easy, 32 hard action templates
+               0.00 seconds reachability analysis, yielding 82 facts and 68 actions
+               0.00 seconds creating final representation with 68 relevant facts
+               0.00 seconds building connectivity graph
+               0.02 seconds searching, evaluating 5192 states, to a max depth of 9
+               0.02 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr2' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr2b' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   23 into depth [1][2][3][4][5]
+                                  22            [1][2][3][4][5]
+                                  21            [1][2][3][4][5]
+                                  20            [1][2][3][4][5]
+                                  19            [1][2][3][4][5]
+                                  18            [1][2]
+                                  17            [1][2][3][4][5]
+                                  16            [1][2]
+                                  15            [1][2][3][4][5]
+                                  14            [1][2]
+                                  13            [1][2][3][4][5]
+                                  12            [1]
+                                  11            [1][2][3][4][5][6][7]
+                                  10            [1][2][3][4][5][6][7]
+                                   9            [1][2][3][4][5][6][7][8]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: mount ra brosses
+        1: move ra base z7
+        2: perform buttage z7 ra brosses
+        3: move ra z7 base
+        4: move ra base z6
+        5: perform buttage z6 ra brosses
+        6: move ra z6 base
+        7: move ra base z5
+        8: perform buttage z5 ra brosses
+        9: move ra z5 base
+       10: move ra base z4
+       11: perform buttage z4 ra brosses
+       12: move ra z4 base
+       13: unmount ra brosses
+       14: move ra base z1
+       15: mount rb socle
+       16: move rb base z7
+       17: perform binage z7 rb socle
+       18: move rb z7 base
+       19: unmount rb socle
+       20: move ra z1 base
+       21: move ra base z1
+       22: mount rb socle
+       23: move rb base z6
+       24: perform binage z6 rb socle
+       25: move rb z6 base
+       26: unmount rb socle
+       27: move ra z1 base
+       28: move ra base z1
+       29: mount rb socle
+       30: move rb base z5
+       31: perform binage z5 rb socle
+       32: move rb z5 base
+       33: unmount rb socle
+       34: move ra z1 base
+       35: move ra base z1
+       36: mount rb socle
+       37: move rb base z4
+       38: perform binage z4 rb socle
+       39: move rb z4 base
+       40: unmount rb socle
+       41: move ra z1 z2
+       42: mount rb brosses
+       43: move rb base z1
+       44: perform buttage z1 rb brosses
+       45: move rb z1 base
+       46: move ra z2 z1
+       47: unmount rb brosses
+       48: move ra z1 z2
+       49: mount rb socle
+       50: move rb base z1
+       51: perform binage z1 rb socle
+       52: move rb z1 base
+       53: unmount rb socle
+       54: move ra z2 z1
+       55: move ra z1 base
+       56: mount ra brosses
+       57: move ra base z4
+       58: mount rb socle
+       59: move ra z4 z3
+       60: move rb base z4
+       61: perform buttage z3 ra brosses
+       62: move ra z3 z2
+       63: perform buttage z2 ra brosses
+       64: move ra z2 z1
+       65: move ra z1 base
+       66: move rb z4 z3
+       67: perform binage z3 rb socle
+       68: move rb z3 z2
+       69: perform binage z2 rb socle
+       70: move rb z2 z1
+       71: move rb z1 base
+
+time spent:    0.00 seconds instantiating 58 easy, 32 hard action templates
+               0.00 seconds reachability analysis, yielding 82 facts and 68 actions
+               0.00 seconds creating final representation with 68 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.05 seconds searching, evaluating 4857 states, to a max depth of 8
+               0.05 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR3' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR3A' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   18 into depth [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1][2]
+                                  14            [1][2][3]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOVE RBT BASE Z4
+        1: PERFORM SUPERVISION Z4 RBT CAMERA
+        2: MOVE RBT Z4 Z3
+        3: PERFORM SUPERVISION Z3 RBT CAMERA
+        4: MOVE RBT Z3 Z2
+        5: PERFORM SUPERVISION Z2 RBT CAMERA
+        6: MOVE RBT Z2 Z1
+        7: PERFORM SUPERVISION Z1 RBT CAMERA
+        8: MOVE RBT Z1 BASE
+        9: MOUNT RBT BROSSES
+       10: MOVE RBT BASE Z4
+       11: PERFORM BUTTAGE Z4 RBT BROSSES
+       12: MOVE RBT Z4 Z3
+       13: PERFORM BUTTAGE Z3 RBT BROSSES
+       14: MOVE RBT Z3 Z2
+       15: PERFORM BUTTAGE Z2 RBT BROSSES
+       16: MOVE RBT Z2 Z1
+       17: PERFORM BUTTAGE Z1 RBT BROSSES
+       18: MOVE RBT Z1 BASE
+       19: UNMOUNT RBT BROSSES
+       20: MOUNT RBT SOCLE
+       21: MOVE RBT BASE Z4
+       22: PERFORM BINAGE Z4 RBT SOCLE
+       23: MOVE RBT Z4 Z3
+       24: PERFORM BINAGE Z3 RBT SOCLE
+       25: MOVE RBT Z3 Z2
+       26: PERFORM BINAGE Z2 RBT SOCLE
+       27: MOVE RBT Z2 Z1
+       28: PERFORM BINAGE Z1 RBT SOCLE
+       29: MOVE RBT Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 8 easy, 22 hard action templates
+               0.00 seconds reachability analysis, yielding 48 facts and 26 actions
+               0.00 seconds creating final representation with 44 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 97 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr3' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr3a' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   18 into depth [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1][2]
+                                  14            [1][2][3][4]
+                                  13            [1][2]
+                                  12            [1][2]
+                                  11            [1][2]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: move rbt base z4
+        1: perform supervision z4 rbt camera
+        2: move rbt z4 z3
+        3: perform supervision z3 rbt camera
+        4: move rbt z3 z2
+        5: perform supervision z2 rbt camera
+        6: move rbt z2 z1
+        7: perform supervision z1 rbt camera
+        8: move rbt z1 base
+        9: mount rbt brosses
+       10: move rbt base z4
+       11: perform buttage z4 rbt brosses
+       12: move rbt z4 z3
+       13: perform buttage z3 rbt brosses
+       14: move rbt z3 z2
+       15: perform buttage z2 rbt brosses
+       16: move rbt z2 z1
+       17: perform buttage z1 rbt brosses
+       18: move rbt z1 base
+       19: unmount rbt brosses
+       20: mount rbt socle
+       21: move rbt base z4
+       22: perform binage z4 rbt socle
+       23: move rbt z4 z3
+       24: move rbt z3 z2
+       25: perform binage z2 rbt socle
+       26: move rbt z2 z1
+       27: perform binage z1 rbt socle
+       28: move rbt z1 base
+       29: move rbt base z4
+       30: move rbt z4 z3
+       31: perform binage z3 rbt socle
+       32: move rbt z3 z4
+       33: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 8 easy, 22 hard action templates
+               0.00 seconds reachability analysis, yielding 48 facts and 26 actions
+               0.00 seconds creating final representation with 44 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 74 states, to a max depth of 4
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR3' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR3B' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   30 into depth [1][2]
+                                  29            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   30
+                          29
+                          28
+                          27
+                          26
+                          25
+                          24
+                          23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOVE RBT BASE Z7
+        1: PERFORM SUPERVISION Z7 RBT CAMERA
+        2: MOVE RBT Z7 BASE
+        3: MOVE RBT BASE Z6
+        4: PERFORM SUPERVISION Z6 RBT CAMERA
+        5: MOVE RBT Z6 BASE
+        6: MOVE RBT BASE Z5
+        7: PERFORM SUPERVISION Z5 RBT CAMERA
+        8: MOVE RBT Z5 BASE
+        9: MOVE RBT BASE Z4
+       10: PERFORM SUPERVISION Z4 RBT CAMERA
+       11: MOVE RBT Z4 Z3
+       12: PERFORM SUPERVISION Z3 RBT CAMERA
+       13: MOVE RBT Z3 Z2
+       14: PERFORM SUPERVISION Z2 RBT CAMERA
+       15: MOVE RBT Z2 Z1
+       16: PERFORM SUPERVISION Z1 RBT CAMERA
+       17: MOVE RBT Z1 BASE
+       18: MOUNT RBT BROSSES
+       19: MOVE RBT BASE Z7
+       20: PERFORM BUTTAGE Z7 RBT BROSSES
+       21: MOVE RBT Z7 BASE
+       22: MOVE RBT BASE Z6
+       23: PERFORM BUTTAGE Z6 RBT BROSSES
+       24: MOVE RBT Z6 BASE
+       25: MOVE RBT BASE Z5
+       26: PERFORM BUTTAGE Z5 RBT BROSSES
+       27: MOVE RBT Z5 BASE
+       28: MOVE RBT BASE Z4
+       29: PERFORM BUTTAGE Z4 RBT BROSSES
+       30: MOVE RBT Z4 Z3
+       31: PERFORM BUTTAGE Z3 RBT BROSSES
+       32: MOVE RBT Z3 Z2
+       33: PERFORM BUTTAGE Z2 RBT BROSSES
+       34: MOVE RBT Z2 Z1
+       35: PERFORM BUTTAGE Z1 RBT BROSSES
+       36: MOVE RBT Z1 BASE
+       37: UNMOUNT RBT BROSSES
+       38: MOUNT RBT SOCLE
+       39: MOVE RBT BASE Z7
+       40: PERFORM BINAGE Z7 RBT SOCLE
+       41: MOVE RBT Z7 BASE
+       42: MOVE RBT BASE Z6
+       43: PERFORM BINAGE Z6 RBT SOCLE
+       44: MOVE RBT Z6 BASE
+       45: MOVE RBT BASE Z5
+       46: PERFORM BINAGE Z5 RBT SOCLE
+       47: MOVE RBT Z5 BASE
+       48: MOVE RBT BASE Z4
+       49: PERFORM BINAGE Z4 RBT SOCLE
+       50: MOVE RBT Z4 Z3
+       51: PERFORM BINAGE Z3 RBT SOCLE
+       52: MOVE RBT Z3 Z2
+       53: PERFORM BINAGE Z2 RBT SOCLE
+       54: MOVE RBT Z2 Z1
+       55: PERFORM BINAGE Z1 RBT SOCLE
+       56: MOVE RBT Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 8 easy, 37 hard action templates
+               0.00 seconds reachability analysis, yielding 78 facts and 41 actions
+               0.00 seconds creating final representation with 71 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 172 states, to a max depth of 2
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr3' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr3b' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   30 into depth [1][2]
+                                  29            [1][2][3]
+                                  28            [1][2][3]
+                                  27            [1][2][3]
+                                  26            [1][2]
+                                  25            [1][2]
+                                  24            [1][2]
+                                  23            [1][2][3][4]
+                                  22            [1][2][3]
+                                  21            [1][2][3]
+                                  20            [1][2][3]
+                                  19            [1][2]
+                                  18            [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1]
+                                  14            [1][2]
+                                  13            [1]
+                                  12            [1][2]
+                                  11            [1]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: move rbt base z7
+        1: perform supervision z7 rbt camera
+        2: move rbt z7 base
+        3: move rbt base z6
+        4: perform supervision z6 rbt camera
+        5: move rbt z6 base
+        6: move rbt base z5
+        7: perform supervision z5 rbt camera
+        8: move rbt z5 base
+        9: move rbt base z4
+       10: perform supervision z4 rbt camera
+       11: move rbt z4 z3
+       12: perform supervision z3 rbt camera
+       13: move rbt z3 z2
+       14: perform supervision z2 rbt camera
+       15: move rbt z2 z1
+       16: perform supervision z1 rbt camera
+       17: move rbt z1 base
+       18: mount rbt brosses
+       19: move rbt base z7
+       20: perform buttage z7 rbt brosses
+       21: move rbt z7 base
+       22: move rbt base z6
+       23: perform buttage z6 rbt brosses
+       24: move rbt z6 base
+       25: move rbt base z5
+       26: perform buttage z5 rbt brosses
+       27: move rbt z5 base
+       28: move rbt base z4
+       29: perform buttage z4 rbt brosses
+       30: move rbt z4 z3
+       31: perform buttage z3 rbt brosses
+       32: move rbt z3 z2
+       33: perform buttage z2 rbt brosses
+       34: move rbt z2 z1
+       35: perform buttage z1 rbt brosses
+       36: move rbt z1 base
+       37: unmount rbt brosses
+       38: mount rbt socle
+       39: move rbt base z7
+       40: perform binage z7 rbt socle
+       41: move rbt z7 base
+       42: move rbt base z6
+       43: perform binage z6 rbt socle
+       44: move rbt z6 base
+       45: move rbt base z5
+       46: perform binage z5 rbt socle
+       47: move rbt z5 base
+       48: move rbt base z4
+       49: perform binage z4 rbt socle
+       50: move rbt z4 z3
+       51: move rbt z3 z2
+       52: perform binage z2 rbt socle
+       53: move rbt z2 z1
+       54: perform binage z1 rbt socle
+       55: move rbt z1 base
+       56: move rbt base z4
+       57: move rbt z4 z3
+       58: perform binage z3 rbt socle
+       59: move rbt z3 z4
+       60: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 8 easy, 37 hard action templates
+               0.00 seconds reachability analysis, yielding 78 facts and 41 actions
+               0.00 seconds creating final representation with 71 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 170 states, to a max depth of 4
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR4' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR4A' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   18 into depth [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1][2]
+                                  14            [1][2][3]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOVE RBT BASE Z4
+        1: PERFORM SUPERVISION Z4 RBT CAMERA EPANDAGE
+        2: MOVE RBT Z4 Z3
+        3: PERFORM SUPERVISION Z3 RBT CAMERA EPANDAGE
+        4: MOVE RBT Z3 Z2
+        5: PERFORM SUPERVISION Z2 RBT CAMERA EPANDAGE
+        6: MOVE RBT Z2 Z1
+        7: PERFORM SUPERVISION Z1 RBT CAMERA EPANDAGE
+        8: MOVE RBT Z1 BASE
+        9: MOUNT RBT SOCLE
+       10: MOVE RBT BASE Z4
+       11: PERFORM BINAGE Z4 RBT SOCLE EPANDAGE
+       12: MOVE RBT Z4 Z3
+       13: PERFORM BINAGE Z3 RBT SOCLE EPANDAGE
+       14: MOVE RBT Z3 Z2
+       15: PERFORM BINAGE Z2 RBT SOCLE EPANDAGE
+       16: MOVE RBT Z2 Z1
+       17: PERFORM BINAGE Z1 RBT SOCLE EPANDAGE
+       18: MOVE RBT Z1 BASE
+       19: UNMOUNT RBT SOCLE
+       20: MOUNT RBT BROSSES
+       21: MOVE RBT BASE Z4
+       22: PERFORM BUTTAGE Z4 RBT BROSSES BINAGE
+       23: MOVE RBT Z4 Z3
+       24: PERFORM BUTTAGE Z3 RBT BROSSES BINAGE
+       25: MOVE RBT Z3 Z2
+       26: PERFORM BUTTAGE Z2 RBT BROSSES BINAGE
+       27: MOVE RBT Z2 Z1
+       28: PERFORM BUTTAGE Z1 RBT BROSSES BINAGE
+       29: MOVE RBT Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 8 easy, 46 hard action templates
+               0.00 seconds reachability analysis, yielding 48 facts and 50 actions
+               0.00 seconds creating final representation with 44 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 101 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr4' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr4a' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   18 into depth [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1][2]
+                                  14            [1][2][3][4]
+                                  13            [1][2]
+                                  12            [1][2]
+                                  11            [1][2]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: move rbt base z4
+        1: perform supervision z4 rbt camera epandage
+        2: move rbt z4 z3
+        3: perform supervision z3 rbt camera epandage
+        4: move rbt z3 z2
+        5: perform supervision z2 rbt camera epandage
+        6: move rbt z2 z1
+        7: perform supervision z1 rbt camera epandage
+        8: move rbt z1 base
+        9: mount rbt socle
+       10: move rbt base z4
+       11: perform binage z4 rbt socle epandage
+       12: move rbt z4 z3
+       13: perform binage z3 rbt socle epandage
+       14: move rbt z3 z2
+       15: perform binage z2 rbt socle epandage
+       16: move rbt z2 z1
+       17: perform binage z1 rbt socle epandage
+       18: move rbt z1 base
+       19: unmount rbt socle
+       20: mount rbt brosses
+       21: move rbt base z4
+       22: perform buttage z4 rbt brosses binage
+       23: move rbt z4 z3
+       24: move rbt z3 z2
+       25: perform buttage z2 rbt brosses binage
+       26: move rbt z2 z1
+       27: perform buttage z1 rbt brosses binage
+       28: move rbt z1 base
+       29: move rbt base z4
+       30: move rbt z4 z3
+       31: perform buttage z3 rbt brosses binage
+       32: move rbt z3 z4
+       33: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 8 easy, 46 hard action templates
+               0.00 seconds reachability analysis, yielding 48 facts and 50 actions
+               0.00 seconds creating final representation with 44 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 73 states, to a max depth of 4
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR4' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR4B' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   23 into depth [1][2][3]
+                                  22            [1]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: MOUNT RBT SOCLE
+        1: MOVE RBT BASE Z7
+        2: PERFORM BINAGE Z7 RBT SOCLE EPANDAGE
+        3: MOVE RBT Z7 BASE
+        4: MOVE RBT BASE Z6
+        5: PERFORM BINAGE Z6 RBT SOCLE EPANDAGE
+        6: MOVE RBT Z6 BASE
+        7: MOVE RBT BASE Z5
+        8: PERFORM BINAGE Z5 RBT SOCLE EPANDAGE
+        9: MOVE RBT Z5 BASE
+       10: MOVE RBT BASE Z4
+       11: PERFORM BINAGE Z4 RBT SOCLE EPANDAGE
+       12: MOVE RBT Z4 Z3
+       13: PERFORM BINAGE Z3 RBT SOCLE EPANDAGE
+       14: MOVE RBT Z3 Z2
+       15: PERFORM BINAGE Z2 RBT SOCLE EPANDAGE
+       16: MOVE RBT Z2 Z1
+       17: PERFORM BINAGE Z1 RBT SOCLE EPANDAGE
+       18: MOVE RBT Z1 BASE
+       19: UNMOUNT RBT SOCLE
+       20: MOUNT RBT BROSSES
+       21: MOVE RBT BASE Z7
+       22: PERFORM BUTTAGE Z7 RBT BROSSES BINAGE
+       23: MOVE RBT Z7 BASE
+       24: MOVE RBT BASE Z6
+       25: PERFORM BUTTAGE Z6 RBT BROSSES BINAGE
+       26: MOVE RBT Z6 BASE
+       27: MOVE RBT BASE Z5
+       28: PERFORM BUTTAGE Z5 RBT BROSSES BINAGE
+       29: MOVE RBT Z5 BASE
+       30: MOVE RBT BASE Z4
+       31: PERFORM BUTTAGE Z4 RBT BROSSES BINAGE
+       32: MOVE RBT Z4 Z3
+       33: PERFORM BUTTAGE Z3 RBT BROSSES BINAGE
+       34: MOVE RBT Z3 Z2
+       35: PERFORM BUTTAGE Z2 RBT BROSSES BINAGE
+       36: MOVE RBT Z2 Z1
+       37: PERFORM BUTTAGE Z1 RBT BROSSES BINAGE
+       38: MOVE RBT Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 8 easy, 79 hard action templates
+               0.00 seconds reachability analysis, yielding 78 facts and 83 actions
+               0.00 seconds creating final representation with 71 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 223 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr4' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr4b' defined
+ ... done.
+
+
+translating negated cond for predicate achieved
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   23 into depth [1][2][3]
+                                  22            [1][2][3]
+                                  21            [1][2][3]
+                                  20            [1][2][3]
+                                  19            [1][2]
+                                  18            [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1]
+                                  14            [1][2]
+                                  13            [1]
+                                  12            [1][2]
+                                  11            [1]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: mount rbt socle
+        1: move rbt base z7
+        2: perform binage z7 rbt socle epandage
+        3: move rbt z7 base
+        4: move rbt base z6
+        5: perform binage z6 rbt socle epandage
+        6: move rbt z6 base
+        7: move rbt base z5
+        8: perform binage z5 rbt socle epandage
+        9: move rbt z5 base
+       10: move rbt base z4
+       11: perform binage z4 rbt socle epandage
+       12: move rbt z4 z3
+       13: perform binage z3 rbt socle epandage
+       14: move rbt z3 z2
+       15: perform binage z2 rbt socle epandage
+       16: move rbt z2 z1
+       17: perform binage z1 rbt socle epandage
+       18: move rbt z1 base
+       19: unmount rbt socle
+       20: mount rbt brosses
+       21: move rbt base z7
+       22: perform buttage z7 rbt brosses binage
+       23: move rbt z7 base
+       24: move rbt base z6
+       25: perform buttage z6 rbt brosses binage
+       26: move rbt z6 base
+       27: move rbt base z5
+       28: perform buttage z5 rbt brosses binage
+       29: move rbt z5 base
+       30: move rbt base z4
+       31: perform buttage z4 rbt brosses binage
+       32: move rbt z4 z3
+       33: move rbt z3 z2
+       34: perform buttage z2 rbt brosses binage
+       35: move rbt z2 z1
+       36: perform buttage z1 rbt brosses binage
+       37: move rbt z1 base
+       38: move rbt base z4
+       39: move rbt z4 z3
+       40: perform buttage z3 rbt brosses binage
+       41: move rbt z3 z4
+       42: move rbt z4 base
+
+time spent:    0.00 seconds instantiating 8 easy, 79 hard action templates
+               0.00 seconds reachability analysis, yielding 78 facts and 83 actions
+               0.00 seconds creating final representation with 71 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 122 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR5' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR5A' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   12 into depth [1]
+                                  11            [1]
+                                  10            [1][2]
+                                   9            [1][2]
+                                   8            [1][2]
+                                   7            [1][2][3]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   26
+                          25
+                          24
+                          23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: FLY DRN BASE Z4
+        1: PERFORM SUPERVISION Z4 DRN CAMERA EPANDAGE
+        2: MOVE RA BASE Z1
+        3: PERFORM SUPERVISION Z1 RA CAMERA EPANDAGE
+        4: FLY DRN Z4 Z3
+        5: PERFORM SUPERVISION Z3 DRN CAMERA EPANDAGE
+        6: MOVE RA Z1 Z2
+        7: PERFORM SUPERVISION Z2 RA CAMERA EPANDAGE
+        8: SPRAY EPANDAGE Z3 DRN PULVERISATEUR SUPERVISION
+        9: FLY DRN Z3 BASE
+       10: REFILL DRN
+       11: FLY DRN BASE Z4
+       12: SPRAY EPANDAGE Z4 DRN PULVERISATEUR SUPERVISION
+       13: FLY DRN Z4 BASE
+       14: REFILL DRN
+       15: FLY DRN BASE Z2
+       16: SPRAY EPANDAGE Z2 DRN PULVERISATEUR SUPERVISION
+       17: FLY DRN Z2 BASE
+       18: REFILL DRN
+       19: FLY DRN BASE Z1
+       20: SPRAY EPANDAGE Z1 DRN PULVERISATEUR SUPERVISION
+       21: FLY DRN Z1 BASE
+       22: MOVE RA Z2 Z1
+       23: MOVE RA Z1 BASE
+       24: MOUNT RA SOCLE
+       25: MOVE RA BASE Z4
+       26: PERFORM BINAGE Z4 RA SOCLE EPANDAGE
+       27: MOVE RA Z4 Z3
+       28: PERFORM BINAGE Z3 RA SOCLE EPANDAGE
+       29: MOVE RA Z3 Z2
+       30: PERFORM BINAGE Z2 RA SOCLE EPANDAGE
+       31: MOVE RA Z2 Z1
+       32: PERFORM BINAGE Z1 RA SOCLE EPANDAGE
+       33: MOVE RA Z1 BASE
+       34: UNMOUNT RA SOCLE
+       35: MOUNT RA BROSSES
+       36: MOVE RA BASE Z4
+       37: PERFORM BUTTAGE Z4 RA BROSSES BINAGE
+       38: MOVE RA Z4 Z3
+       39: PERFORM BUTTAGE Z3 RA BROSSES BINAGE
+       40: MOVE RA Z3 Z2
+       41: PERFORM BUTTAGE Z2 RA BROSSES BINAGE
+       42: MOVE RA Z2 Z1
+       43: PERFORM BUTTAGE Z1 RA BROSSES BINAGE
+       44: MOVE RA Z1 BASE
+     
+
+time spent:    0.00 seconds instantiating 34 easy, 86 hard action templates
+               0.00 seconds reachability analysis, yielding 42 facts and 96 actions
+               0.00 seconds creating final representation with 42 relevant facts
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 507 states, to a max depth of 3
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr5' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr5a' defined
+ ... done.
+
+
+translating negated cond for predicate =
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   26 into depth [1][2]
+                                  25            [1][2]
+                                  24            [1][2]
+                                  23            [1][2]
+                                  22            [1][2]
+                                  21            [1][2]
+                                  20            [1][2][3]
+                                  19            [1][2]
+                                  18            [1][2][3]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1]
+                                  14            [1][2][3][4]
+                                  13            [1][2]
+                                  12            [1][2]
+                                  11            [1][2]
+                                  10            [1][2]
+                                   9            [1]
+                                   8            [1][2]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1][2][3]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: move ra base z4
+        1: perform supervision z4 ra camera epandage
+        2: fly drn base z3
+        3: perform supervision z3 drn camera epandage
+        4: fly drn z3 z2
+        5: perform supervision z2 drn camera epandage
+        6: fly drn z2 z1
+        7: perform supervision z1 drn camera epandage
+        8: spray epandage z1 drn pulverisateur supervision
+        9: fly drn z1 z4
+       10: fly drn z4 base
+       11: refill drn
+       12: fly drn base z4
+       13: spray epandage z4 drn pulverisateur supervision
+       14: fly drn z4 z3
+       15: fly drn z3 base
+       16: refill drn
+       17: fly drn base z3
+       18: spray epandage z3 drn pulverisateur supervision
+       19: fly drn z3 z2
+       20: fly drn z2 base
+       21: refill drn
+       22: fly drn base z2
+       23: spray epandage z2 drn pulverisateur supervision
+       24: fly drn z2 base
+       25: move ra z4 base
+       26: mount ra socle
+       27: move ra base z4
+       28: perform binage z4 ra socle epandage
+       29: move ra z4 z3
+       30: perform binage z3 ra socle epandage
+       31: move ra z3 z2
+       32: perform binage z2 ra socle epandage
+       33: move ra z2 z1
+       34: perform binage z1 ra socle epandage
+       35: move ra z1 base
+       36: unmount ra socle
+       37: mount ra brosses
+       38: move ra base z4
+       39: perform buttage z4 ra brosses binage
+       40: move ra z4 z3
+       41: move ra z3 z2
+       42: perform buttage z2 ra brosses binage
+       43: move ra z2 z1
+       44: perform buttage z1 ra brosses binage
+       45: move ra z1 base
+       46: move ra base z4
+       47: move ra z4 z3
+       48: perform buttage z3 ra brosses binage
+       49: move ra z3 z4
+       50: move ra z4 base
+
+time spent:    0.00 seconds instantiating 34 easy, 86 hard action templates
+               0.00 seconds reachability analysis, yielding 42 facts and 96 actions
+               0.00 seconds creating final representation with 42 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 207 states, to a max depth of 4
+               0.00 seconds total time
+
+
+ff: parsing domain file
+domain 'EWR5' defined
+ ... done.
+ff: parsing problem file
+problem 'EWR5B' defined
+ ... done.
+
+
+
+Cueing down from goal distance:   21 into depth [1]
+                                  20            [1]
+                                  19            [1][2]
+                                  18            [1][2]
+                                  17            [1][2]
+                                  16            [1][2]
+                                  15            [1][2]
+                                  14            [1][2]
+                                  13            [1][2][3]
+
+Enforced Hill-climbing failed !
+switching to Best-first Search now.
+
+advancing to distance :   44
+                          43
+                          42
+                          41
+                          40
+                          39
+                          38
+                          37
+                          36
+                          35
+                          34
+                          33
+                          32
+                          31
+                          30
+                          29
+                          28
+                          27
+                          26
+                          25
+                          24
+                          23
+                          22
+                          21
+                          20
+                          19
+                          18
+                          17
+                          16
+                          15
+                          14
+                          13
+                          12
+                          11
+                          10
+                           9
+                           8
+                           7
+                           6
+                           5
+                           4
+                           3
+                           2
+                           1
+                           0
+
+ff: found legal plan as follows
+
+step    0: FLY DRN BASE Z7
+        1: PERFORM SUPERVISION Z7 DRN CAMERA EPANDAGE
+        2: FLY DRN Z7 Z6
+        3: PERFORM SUPERVISION Z6 DRN CAMERA EPANDAGE
+        4: FLY DRN Z6 Z5
+        5: PERFORM SUPERVISION Z5 DRN CAMERA EPANDAGE
+        6: FLY DRN Z5 Z4
+        7: PERFORM SUPERVISION Z4 DRN CAMERA EPANDAGE
+        8: FLY DRN Z4 Z3
+        9: PERFORM SUPERVISION Z3 DRN CAMERA EPANDAGE
+       10: FLY DRN Z3 Z2
+       11: PERFORM SUPERVISION Z2 DRN CAMERA EPANDAGE
+       12: FLY DRN Z2 Z1
+       13: PERFORM SUPERVISION Z1 DRN CAMERA EPANDAGE
+       14: SPRAY EPANDAGE Z1 DRN PULVERISATEUR SUPERVISION
+       15: FLY DRN Z1 BASE
+       16: REFILL DRN
+       17: FLY DRN BASE Z7
+       18: SPRAY EPANDAGE Z7 DRN PULVERISATEUR SUPERVISION
+       19: FLY DRN Z7 BASE
+       20: REFILL DRN
+       21: FLY DRN BASE Z6
+       22: SPRAY EPANDAGE Z6 DRN PULVERISATEUR SUPERVISION
+       23: FLY DRN Z6 BASE
+       24: REFILL DRN
+       25: FLY DRN BASE Z5
+       26: SPRAY EPANDAGE Z5 DRN PULVERISATEUR SUPERVISION
+       27: FLY DRN Z5 BASE
+       28: REFILL DRN
+       29: FLY DRN BASE Z4
+       30: SPRAY EPANDAGE Z4 DRN PULVERISATEUR SUPERVISION
+       31: FLY DRN Z4 BASE
+       32: REFILL DRN
+       33: FLY DRN BASE Z3
+       34: SPRAY EPANDAGE Z3 DRN PULVERISATEUR SUPERVISION
+       35: FLY DRN Z3 BASE
+       36: REFILL DRN
+       37: FLY DRN BASE Z2
+       38: SPRAY EPANDAGE Z2 DRN PULVERISATEUR SUPERVISION
+       39: FLY DRN Z2 BASE
+       40: MOVE RA BASE Z4
+       41: MOVE RA Z4 Z3
+       42: MOUNT RB SOCLE
+       43: MOVE RB BASE Z1
+       44: PERFORM BINAGE Z1 RB SOCLE EPANDAGE
+       45: MOVE RB Z1 BASE
+       46: MOVE RA Z3 Z2
+       47: MOVE RB BASE Z4
+       48: PERFORM BINAGE Z4 RB SOCLE EPANDAGE
+       49: MOVE RB Z4 BASE
+       50: UNMOUNT RB SOCLE
+       51: MOUNT RB BROSSES
+       52: MOVE RB BASE Z4
+       53: PERFORM BUTTAGE Z4 RB BROSSES BINAGE
+       54: MOVE RB Z4 BASE
+       55: MOVE RA Z2 Z3
+       56: MOVE RB BASE Z1
+       57: PERFORM BUTTAGE Z1 RB BROSSES BINAGE
+       58: MOVE RB Z1 BASE
+       59: UNMOUNT RB BROSSES
+       60: MOUNT RB SOCLE
+       61: MOVE RB BASE Z7
+       62: PERFORM BINAGE Z7 RB SOCLE EPANDAGE
+       63: MOVE RB Z7 BASE
+       64: MOVE RB BASE Z1
+       65: MOVE RB Z1 Z2
+       66: PERFORM BINAGE Z2 RB SOCLE EPANDAGE
+       67: MOVE RA Z3 Z4
+       68: MOVE RB Z2 Z3
+       69: PERFORM BINAGE Z3 RB SOCLE EPANDAGE
+       70: MOVE RB Z3 Z2
+       71: MOVE RB Z2 Z1
+       72: MOVE RB Z1 BASE
+       73: MOVE RB BASE Z6
+       74: PERFORM BINAGE Z6 RB SOCLE EPANDAGE
+       75: MOVE RA Z4 BASE
+       76: MOVE RB Z6 BASE
+       77: MOUNT RA BROSSES
+       78: MOVE RA BASE Z4
+       79: MOVE RB BASE Z5
+       80: PERFORM BINAGE Z5 RB SOCLE EPANDAGE
+       81: MOVE RB Z5 BASE
+       82: MOVE RA Z4 Z3
+       83: PERFORM BUTTAGE Z3 RA BROSSES BINAGE
+       84: MOVE RA Z3 Z2
+       85: PERFORM BUTTAGE Z2 RA BROSSES BINAGE
+       86: MOVE RA Z2 Z1
+       87: MOVE RA Z1 BASE
+       88: MOVE RA BASE Z7
+       89: PERFORM BUTTAGE Z7 RA BROSSES BINAGE
+       90: MOVE RA Z7 BASE
+       91: MOVE RA BASE Z6
+       92: PERFORM BUTTAGE Z6 RA BROSSES BINAGE
+       93: MOVE RA Z6 BASE
+       94: MOVE RA BASE Z5
+       95: PERFORM BUTTAGE Z5 RA BROSSES BINAGE
+       96: MOVE RA Z5 BASE
+     
+
+time spent:    0.00 seconds instantiating 81 easy, 228 hard action templates
+               0.00 seconds reachability analysis, yielding 77 facts and 266 actions
+               0.00 seconds creating final representation with 77 relevant facts
+               0.00 seconds building connectivity graph
+               0.36 seconds searching, evaluating 17547 states, to a max depth of 3
+               0.36 seconds total time
+
+
+ff: parsing domain file
+domain 'ewr5' defined
+ ... done.
+ff: parsing problem file
+problem 'ewr5b' defined
+ ... done.
+
+
+translating negated cond for predicate =
+translating negated cond for predicate occupied
+no metric specified.
+
+ff: search configuration is Enforced Hill-Climbing, if that fails then best-first search.
+Metric is plan length.
+NO COST MINIMIZATION (and no cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   44 into depth [1][2]
+                                  43            [1][2]
+                                  42            [1][2]
+                                  41            [1][2]
+                                  40            [1][2]
+                                  39            [1][2]
+                                  38            [1][2]
+                                  37            [1][2]
+                                  36            [1][2]
+                                  35            [1][2][3]
+                                  34            [1][2]
+                                  33            [1][2][3]
+                                  32            [1][2]
+                                  31            [1][2][3]
+                                  30            [1][2]
+                                  29            [1][2][3]
+                                  28            [1][2]
+                                  27            [1][2][3]
+                                  26            [1][2]
+                                  25            [1][2]
+                                  24            [1]
+                                  23            [1][2][3][4][5]
+                                  22            [1][2][3][4][5]
+                                  21            [1]
+                                  20            [1][2][3][4]
+                                  19            [1][2][3][4][5]
+                                  18            [1]
+                                  17            [1][2][3][4]
+                                  16            [1][2][3][4][5]
+                                  15            [1]
+                                  14            [1][2][3][4]
+                                  13            [1][2][3][4][5]
+                                  12            [1][2][3][4]
+                                  11            [1][2]
+                                  10            [1][2][3][4][5][6][7]
+                                   9            [1][2][3][4][5][6]
+                                   8            [1][2][3][4][5]
+                                   7            [1][2][3]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: fly drn base z7
+        1: perform supervision z7 drn camera epandage
+        2: fly drn z7 z6
+        3: perform supervision z6 drn camera epandage
+        4: fly drn z6 z5
+        5: perform supervision z5 drn camera epandage
+        6: fly drn z5 z4
+        7: perform supervision z4 drn camera epandage
+        8: fly drn z4 z3
+        9: perform supervision z3 drn camera epandage
+       10: fly drn z3 z2
+       11: perform supervision z2 drn camera epandage
+       12: fly drn z2 z1
+       13: perform supervision z1 drn camera epandage
+       14: spray epandage z1 drn pulverisateur supervision
+       15: fly drn z1 z7
+       16: fly drn z7 base
+       17: refill drn
+       18: fly drn base z7
+       19: spray epandage z7 drn pulverisateur supervision
+       20: fly drn z7 z6
+       21: fly drn z6 base
+       22: refill drn
+       23: fly drn base z6
+       24: spray epandage z6 drn pulverisateur supervision
+       25: fly drn z6 z5
+       26: fly drn z5 base
+       27: refill drn
+       28: fly drn base z5
+       29: spray epandage z5 drn pulverisateur supervision
+       30: fly drn z5 z4
+       31: fly drn z4 base
+       32: refill drn
+       33: fly drn base z4
+       34: spray epandage z4 drn pulverisateur supervision
+       35: fly drn z4 z3
+       36: fly drn z3 base
+       37: refill drn
+       38: fly drn base z3
+       39: spray epandage z3 drn pulverisateur supervision
+       40: fly drn z3 z2
+       41: fly drn z2 base
+       42: refill drn
+       43: fly drn base z2
+       44: spray epandage z2 drn pulverisateur supervision
+       45: fly drn z2 base
+       46: mount ra socle
+       47: move ra base z7
+       48: perform binage z7 ra socle epandage
+       49: move ra z7 base
+       50: mount rb brosses
+       51: move rb base z7
+       52: perform buttage z7 rb brosses binage
+       53: move rb z7 base
+       54: unmount rb brosses
+       55: move ra base z6
+       56: perform binage z6 ra socle epandage
+       57: move ra z6 base
+       58: mount rb brosses
+       59: move rb base z6
+       60: perform buttage z6 rb brosses binage
+       61: move rb z6 base
+       62: unmount rb brosses
+       63: move ra base z5
+       64: perform binage z5 ra socle epandage
+       65: move ra z5 base
+       66: mount rb brosses
+       67: move rb base z5
+       68: perform buttage z5 rb brosses binage
+       69: move rb z5 base
+       70: unmount rb brosses
+       71: move ra base z4
+       72: perform binage z4 ra socle epandage
+       73: move ra z4 base
+       74: move ra base z1
+       75: perform binage z1 ra socle epandage
+       76: move ra z1 base
+       77: unmount ra socle
+       78: mount ra brosses
+       79: move ra base z4
+       80: perform buttage z4 ra brosses binage
+       81: move ra z4 base
+       82: unmount ra brosses
+       83: move ra base z1
+       84: move ra z1 z2
+       85: mount rb brosses
+       86: move rb base z1
+       87: perform buttage z1 rb brosses binage
+       88: move rb z1 base
+       89: unmount rb brosses
+       90: move ra z2 z1
+       91: move ra z1 base
+       92: mount ra socle
+       93: move ra base z4
+       94: move ra z4 z3
+       95: perform binage z3 ra socle epandage
+       96: move ra z3 z2
+       97: move rb base z4
+       98: perform binage z2 ra socle epandage
+       99: move ra z2 z1
+      100: move rb z4 base
+      101: mount rb brosses
+      102: move rb base z4
+      103: move ra z1 base
+      104: move rb z4 z3
+      105: perform buttage z3 rb brosses binage
+      106: move rb z3 z2
+      107: perform buttage z2 rb brosses binage
+      108: move rb z2 z1
+      109: move rb z1 base
+
+time spent:    0.00 seconds instantiating 81 easy, 228 hard action templates
+               0.00 seconds reachability analysis, yielding 77 facts and 266 actions
+               0.00 seconds creating final representation with 77 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.11 seconds searching, evaluating 4169 states, to a max depth of 7
+               0.11 seconds total time
+

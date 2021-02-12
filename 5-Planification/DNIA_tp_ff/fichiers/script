@@ -1,0 +1,20 @@
+ff -o dom1.pddl -f pb1a.pddl
+metric-ff -s 0 -o dom1.pddl -f pb1a.pddl
+ff -o dom1.pddl -f pb1b.pddl
+metric-ff -s 0 -o dom1.pddl -f pb1b.pddl
+ff -o dom2.pddl -f pb2a.pddl
+metric-ff -s 0 -o dom2.pddl -f pb2a.pddl
+ff -o dom2.pddl -f pb2b.pddl
+metric-ff -s 0 -o dom2.pddl -f pb2b.pddl
+ff -o dom3.pddl -f pb3a.pddl
+metric-ff -s 0 -o dom3.pddl -f pb3a.pddl
+ff -o dom3.pddl -f pb3b.pddl
+metric-ff -s 0 -o dom3.pddl -f pb3b.pddl
+ff -o dom4.pddl -f pb4a.pddl
+metric-ff -s 0 -o dom4.pddl -f pb4a.pddl
+ff -o dom4.pddl -f pb4b.pddl
+metric-ff -s 0 -o dom4.pddl -f pb4b.pddl
+ff -o dom5.pddl -f pb5a.pddl
+metric-ff -s 0 -o dom5.pddl -f pb5a.pddl
+ff -o dom5.pddl -f pb5b.pddl
+metric-ff -s 0 -o dom5.pddl -f pb5b.pddl
