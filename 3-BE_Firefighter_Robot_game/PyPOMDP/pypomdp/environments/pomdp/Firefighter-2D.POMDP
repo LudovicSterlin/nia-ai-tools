@@ -2,7 +2,7 @@ discount: 0.95
 values: reward
 states: notengaged engaged
 actions: manu auto
-observations: notengaged engaged
+observations: onotengaged oengaged
 
 start: 0.5 0.5
 

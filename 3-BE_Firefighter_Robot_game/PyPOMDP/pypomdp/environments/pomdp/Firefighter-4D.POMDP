@@ -1,0 +1,41 @@
+discount: 0.95
+values: reward
+states: notengagedmanu engagedmanu notengagedauto engagedauto
+actions: manu auto
+observations: onotengagedmanu oengagedmanu onotengagedauto oengagedauto
+
+start: 0.25 0.25 0.25 0.25
+
+T: manu
+0.9 0.1 0 0
+0.1 0.9 0 0
+0.9 0.1 0 0
+0.1 0.9 0 0
+
+T: auto
+0 0 0.9 0.1
+0 0 0.1 0.9
+0 0 0.9 0.1
+0 0 0.1 0.9
+
+O: manu
+0.835 0.165 0 0
+0.114 0.886 0 0
+0 0 0.797 0.203
+0 0 0.126 0.874
+
+O: auto
+0.835 0.165 0 0
+0.114 0.886 0 0
+0 0 0.797 0.203
+0 0 0.126 0.874
+
+R: manu : notengagedmanu : * : * 0.310
+R: manu : engagedmanu : * : * 0.554
+R: manu : notengagedauto : * : * 0.310
+R: manu : engagedauto : * : * 0.554
+
+R: auto : notengagedmanu : * : * 0.347
+R: auto : engagedmanu : * : * 0.425
+R: auto : notengagedauto : * : * 0.347
+R: auto : engagedauto : * : * 0.425
