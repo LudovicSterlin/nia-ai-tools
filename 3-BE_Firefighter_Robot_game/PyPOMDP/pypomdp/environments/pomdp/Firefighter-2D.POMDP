@@ -1,0 +1,31 @@
+discount: 0.95
+values: reward
+states: notengaged engaged
+actions: manu auto
+observations: notengaged engaged
+
+start: 0.5 0.5
+
+T: manu
+0.9 0.1
+0.1 0.9
+
+T: auto
+0.9 0.1
+0.1 0.9
+
+O: manu
+0.796, 0.204
+0.161, 0.839
+
+O: auto
+0.796, 0.204
+0.161, 0.839
+
+R: manu : notengaged : * : * 0.310
+
+R: auto : notengaged : * : * 0.346
+
+R: manu : engaged : * : * 0.554
+
+R: auto : engaged : * : * 0.425
